@@ -31,20 +31,26 @@ If you prefer GitHub Pages instead:
 
 ## Domain Email
 
-For receiving email at `support@sugrowth.ca`, use Cloudflare Email Service routing.
+For receiving email at `support@sugrowth.ca`, `scrolloff@sugrowth.ca`, and `textezi@sugrowth.ca`, use Cloudflare Email Service routing.
 
 1. In Cloudflare, open Compute > Email Service > Email Routing for `sugrowth.ca`.
 2. Add a destination address such as `sugrowth@gmail.com`.
 3. Verify that destination inbox.
-4. Create a routing rule:
-   - Email pattern: `support`
-   - Domain: `sugrowth.ca`
-   - Action: Send to an email
-   - Destination: `sugrowth@gmail.com`
+4. Create these routing rules:
+   - `support@sugrowth.ca` -> `sugrowth@gmail.com`
+   - `scrolloff@sugrowth.ca` -> `sugrowth@gmail.com`
+   - `textezi@sugrowth.ca` -> `sugrowth@gmail.com`
 5. Add the MX and TXT records Cloudflare shows during domain onboarding.
 6. Remove conflicting MX records if Namecheap or another email provider added any earlier.
 
-For human replies from `support@sugrowth.ca`, use a mailbox provider such as Google Workspace, Zoho Mail, Proton Mail, or Fastmail. For app or system email, Cloudflare Email Service can send outbound messages through the REST API or a Workers binding after the sending domain is onboarded.
+For each rule, use:
+
+- Email pattern: `support`, `scrolloff`, or `textezi`
+- Domain: `sugrowth.ca`
+- Action: Send to an email
+- Destination: `sugrowth@gmail.com`
+
+For human replies from `support@sugrowth.ca`, `scrolloff@sugrowth.ca`, or `textezi@sugrowth.ca`, use a mailbox provider such as Google Workspace, Zoho Mail, Proton Mail, or Fastmail. For app or system email, Cloudflare Email Service can send outbound messages through the REST API or a Workers binding after the sending domain is onboarded.
 
 ## Suggested Branch Flow
 
