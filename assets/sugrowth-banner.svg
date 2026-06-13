@@ -1,23 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
   <title id="title">Sugrowth social banner</title>
-  <desc id="desc">Sugrowth wordmark on a navy and green brand background.</desc>
+  <desc id="desc">Sugrowth company mark and wordmark on a clean light brand background.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#07101f"/>
-      <stop offset="0.58" stop-color="#172642"/>
-      <stop offset="1" stop-color="#1f785d"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.58" stop-color="#f7faf8"/>
+      <stop offset="1" stop-color="#eef6f3"/>
     </linearGradient>
     <style>
-      .word { fill: #f7fbff; font-family: Inter, "Avenir Next", Arial, sans-serif; font-size: 104px; font-weight: 950; letter-spacing: 0; }
-      .line { fill: #cbd8e7; font-family: Inter, "Avenir Next", Arial, sans-serif; font-size: 34px; font-weight: 750; letter-spacing: 0; }
+      .word { fill: #172642; font-family: Inter, "Avenir Next", Arial, sans-serif; font-size: 104px; font-weight: 950; letter-spacing: 0; }
     </style>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <path d="M0 468C182 392 330 438 484 474C678 520 866 486 1200 338V630H0Z" fill="#30ae7c" opacity="0.16"/>
-  <path d="M0 104H1200" stroke="#66d9aa" stroke-width="2" opacity="0.24"/>
-  <path d="M0 526H1200" stroke="#66d9aa" stroke-width="2" opacity="0.18"/>
-  <image href="sugrowth-mark-source.png" x="96" y="120" width="250" height="340" preserveAspectRatio="xMidYMid meet"/>
-  <text class="word" x="374" y="275">SUGROWTH</text>
-  <text class="line" x="380" y="350">Good growth, engineered into products.</text>
-  <text class="line" x="380" y="402" opacity="0.78">ScrollOff · Textezi · Product-led software</text>
+  <rect width="1200" height="630" fill="url(#paper)"/>
+  <rect x="34" y="34" width="1132" height="562" rx="34" fill="none" stroke="#dceee7" stroke-width="3"/>
+  <path d="M0 514C190 450 334 482 502 516C692 554 889 538 1200 414V630H0Z" fill="#30ae7c" opacity="0.06"/>
+  <path d="M84 94H1116" stroke="#1a2947" stroke-width="2" opacity="0.08"/>
+  <path d="M84 536H1116" stroke="#30ae7c" stroke-width="2" opacity="0.12"/>
+  <image href="sugrowth-mark-source.png" x="197" y="145" width="248" height="340" preserveAspectRatio="xMidYMid meet"/>
+  <text class="word" x="476" y="356">SUGROWTH</text>
 </svg>
