@@ -4,8 +4,8 @@
   "description": "Good growth, built into software.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#060B14",
-  "theme_color": "#060B14",
+  "background_color": "#07101F",
+  "theme_color": "#07101F",
   "icons": [
     {
       "src": "assets/favicon-32x32.png",
