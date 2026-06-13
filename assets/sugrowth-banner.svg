@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Sugrowth social banner</title>
+  <desc id="desc">Sugrowth wordmark on a navy and green brand background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07101f"/>
+      <stop offset="0.58" stop-color="#172642"/>
+      <stop offset="1" stop-color="#1f785d"/>
+    </linearGradient>
+    <linearGradient id="growth" x1="65" y1="45" x2="196" y2="226" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66d9aa"/>
+      <stop offset="0.48" stop-color="#30ae7c"/>
+      <stop offset="1" stop-color="#20785a"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="128" y1="28" x2="128" y2="224" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#d9e8f5"/>
+    </linearGradient>
+    <style>
+      .word { fill: #f7fbff; font-family: Inter, "Avenir Next", Arial, sans-serif; font-size: 104px; font-weight: 950; letter-spacing: 0; }
+      .line { fill: #cbd8e7; font-family: Inter, "Avenir Next", Arial, sans-serif; font-size: 34px; font-weight: 750; letter-spacing: 0; }
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0 468C182 392 330 438 484 474C678 520 866 486 1200 338V630H0Z" fill="#30ae7c" opacity="0.16"/>
+  <path d="M0 104H1200" stroke="#66d9aa" stroke-width="2" opacity="0.24"/>
+  <path d="M0 526H1200" stroke="#66d9aa" stroke-width="2" opacity="0.18"/>
+  <g transform="translate(118 154) scale(.96)">
+    <path d="M177 62C154 44 112 45 89 69C70 89 74 116 103 130C121 139 148 139 164 150C189 168 180 207 145 222C122 232 95 229 75 216" fill="none" stroke="#07101f" stroke-width="34" stroke-linecap="round" opacity="0.24" transform="translate(0 6)"/>
+    <path d="M177 62C154 44 112 45 89 69C70 89 74 116 103 130C121 139 148 139 164 150C189 168 180 207 145 222C122 232 95 229 75 216" fill="none" stroke="url(#growth)" stroke-width="34" stroke-linecap="round"/>
+    <path d="M128 28L173 80H150V224H106V80H83L128 28Z" fill="url(#navy)"/>
+  </g>
+  <text class="word" x="374" y="275">SUGROWTH</text>
+  <text class="line" x="380" y="350">Good growth, engineered into products.</text>
+  <text class="line" x="380" y="402" opacity="0.78">ScrollOff · Textezi · Product-led software</text>
+</svg>

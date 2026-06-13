@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sugrowth full logo</title>
+  <desc id="desc">The Sugrowth growth-arrow mark above the Sugrowth wordmark.</desc>
+  <defs>
+    <linearGradient id="growth" x1="170" y1="90" x2="478" y2="530" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66d9aa"/>
+      <stop offset="0.48" stop-color="#30ae7c"/>
+      <stop offset="1" stop-color="#20785a"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="320" y1="62" x2="320" y2="552" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#25365b"/>
+      <stop offset="0.58" stop-color="#172642"/>
+      <stop offset="1" stop-color="#0b1428"/>
+    </linearGradient>
+    <style>
+      .word { fill: #172642; font-family: Inter, "Avenir Next", Arial, sans-serif; font-size: 84px; font-weight: 950; letter-spacing: 0; }
+    </style>
+  </defs>
+  <g transform="translate(64 36) scale(2)">
+    <path d="M177 62C154 44 112 45 89 69C70 89 74 116 103 130C121 139 148 139 164 150C189 168 180 207 145 222C122 232 95 229 75 216" fill="none" stroke="#165f49" stroke-width="34" stroke-linecap="round" opacity="0.18" transform="translate(0 5)"/>
+    <path d="M177 62C154 44 112 45 89 69C70 89 74 116 103 130C121 139 148 139 164 150C189 168 180 207 145 222C122 232 95 229 75 216" fill="none" stroke="url(#growth)" stroke-width="34" stroke-linecap="round"/>
+    <path d="M128 28L173 80H150V224H106V80H83L128 28Z" fill="url(#navy)"/>
+    <path d="M134 57L154 80H143V213H134V57Z" fill="#31466f" opacity="0.28"/>
+    <path d="M106 80H83L128 28V224H106V80Z" fill="#07101f" opacity="0.1"/>
+  </g>
+  <text class="word" x="320" y="642" text-anchor="middle">SUGROWTH</text>
+</svg>
