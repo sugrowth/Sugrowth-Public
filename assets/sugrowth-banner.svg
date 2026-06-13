@@ -7,15 +7,6 @@
       <stop offset="0.58" stop-color="#172642"/>
       <stop offset="1" stop-color="#1f785d"/>
     </linearGradient>
-    <linearGradient id="growth" x1="54" y1="49" x2="204" y2="224" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#66d9aa"/>
-      <stop offset="0.42" stop-color="#30bf75"/>
-      <stop offset="1" stop-color="#0b8978"/>
-    </linearGradient>
-    <linearGradient id="navy" x1="128" y1="24" x2="128" y2="236" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f7fbff"/>
-      <stop offset="1" stop-color="#d9e8f5"/>
-    </linearGradient>
     <style>
       .word { fill: #f7fbff; font-family: Inter, "Avenir Next", Arial, sans-serif; font-size: 104px; font-weight: 950; letter-spacing: 0; }
       .line { fill: #cbd8e7; font-family: Inter, "Avenir Next", Arial, sans-serif; font-size: 34px; font-weight: 750; letter-spacing: 0; }
@@ -25,13 +16,7 @@
   <path d="M0 468C182 392 330 438 484 474C678 520 866 486 1200 338V630H0Z" fill="#30ae7c" opacity="0.16"/>
   <path d="M0 104H1200" stroke="#66d9aa" stroke-width="2" opacity="0.24"/>
   <path d="M0 526H1200" stroke="#66d9aa" stroke-width="2" opacity="0.18"/>
-  <g transform="translate(118 154) scale(.96)">
-    <path d="M196 92C160 64 91 72 66 112C43 149 84 171 132 179C173 186 197 210 165 229C131 248 79 224 55 197" fill="none" stroke="#07101f" stroke-width="35" stroke-linecap="round" stroke-linejoin="round" opacity="0.2" transform="translate(0 5)"/>
-    <path d="M196 92C160 64 91 72 66 112C43 149 84 171 132 179C173 186 197 210 165 229C131 248 79 224 55 197" fill="none" stroke="url(#growth)" stroke-width="35" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M128 24L178 80H149V216C149 231 138 238 121 238H111V80H79L128 24Z" fill="url(#navy)"/>
-    <path d="M136 60V218C140 215 142 209 142 201V80H160L136 60Z" fill="#d9e8f5" opacity="0.24"/>
-    <path d="M64 120C91 148 127 153 159 162C191 171 203 196 181 220" fill="none" stroke="url(#growth)" stroke-width="35" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+  <image href="sugrowth-mark-source.png" x="96" y="120" width="250" height="340" preserveAspectRatio="xMidYMid meet"/>
   <text class="word" x="374" y="275">SUGROWTH</text>
   <text class="line" x="380" y="350">Good growth, engineered into products.</text>
   <text class="line" x="380" y="402" opacity="0.78">ScrollOff · Textezi · Product-led software</text>
