@@ -1,27 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 720" role="img" aria-labelledby="title desc">
   <title id="title">Sugrowth full logo</title>
-  <desc id="desc">The Sugrowth growth-arrow mark above the Sugrowth wordmark.</desc>
+  <desc id="desc">A green S-shaped growth ribbon wraps around a navy upward value arrow above the Sugrowth wordmark.</desc>
   <defs>
-    <linearGradient id="growth" x1="170" y1="90" x2="478" y2="530" gradientUnits="userSpaceOnUse">
+    <linearGradient id="growth" x1="54" y1="49" x2="204" y2="224" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#66d9aa"/>
-      <stop offset="0.48" stop-color="#30ae7c"/>
-      <stop offset="1" stop-color="#20785a"/>
+      <stop offset="0.42" stop-color="#30bf75"/>
+      <stop offset="1" stop-color="#0b8978"/>
     </linearGradient>
-    <linearGradient id="navy" x1="320" y1="62" x2="320" y2="552" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#25365b"/>
-      <stop offset="0.58" stop-color="#172642"/>
-      <stop offset="1" stop-color="#0b1428"/>
+    <linearGradient id="navy" x1="128" y1="24" x2="128" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#102957"/>
+      <stop offset="0.58" stop-color="#071f49"/>
+      <stop offset="1" stop-color="#0b4ab2"/>
     </linearGradient>
     <style>
       .word { fill: #172642; font-family: Inter, "Avenir Next", Arial, sans-serif; font-size: 84px; font-weight: 950; letter-spacing: 0; }
     </style>
   </defs>
   <g transform="translate(64 36) scale(2)">
-    <path d="M177 62C154 44 112 45 89 69C70 89 74 116 103 130C121 139 148 139 164 150C189 168 180 207 145 222C122 232 95 229 75 216" fill="none" stroke="#165f49" stroke-width="34" stroke-linecap="round" opacity="0.18" transform="translate(0 5)"/>
-    <path d="M177 62C154 44 112 45 89 69C70 89 74 116 103 130C121 139 148 139 164 150C189 168 180 207 145 222C122 232 95 229 75 216" fill="none" stroke="url(#growth)" stroke-width="34" stroke-linecap="round"/>
-    <path d="M128 28L173 80H150V224H106V80H83L128 28Z" fill="url(#navy)"/>
-    <path d="M134 57L154 80H143V213H134V57Z" fill="#31466f" opacity="0.28"/>
-    <path d="M106 80H83L128 28V224H106V80Z" fill="#07101f" opacity="0.1"/>
+    <path d="M196 92C160 64 91 72 66 112C43 149 84 171 132 179C173 186 197 210 165 229C131 248 79 224 55 197" fill="none" stroke="#075e55" stroke-width="35" stroke-linecap="round" stroke-linejoin="round" opacity="0.12" transform="translate(0 4)"/>
+    <path d="M196 92C160 64 91 72 66 112C43 149 84 171 132 179C173 186 197 210 165 229C131 248 79 224 55 197" fill="none" stroke="url(#growth)" stroke-width="35" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M128 24L178 80H149V216C149 231 138 238 121 238H111V80H79L128 24Z" fill="url(#navy)"/>
+    <path d="M136 60V218C140 215 142 209 142 201V80H160L136 60Z" fill="#001742" opacity="0.22"/>
+    <path d="M64 120C91 148 127 153 159 162C191 171 203 196 181 220" fill="none" stroke="url(#growth)" stroke-width="35" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M153 176C176 185 186 202 181 220C191 207 188 188 171 175Z" fill="#0a7468" opacity="0.14"/>
   </g>
   <text class="word" x="320" y="642" text-anchor="middle">SUGROWTH</text>
 </svg>
